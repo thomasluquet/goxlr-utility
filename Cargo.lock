@@ -449,6 +449,13 @@ dependencies = [
 ]
 
 [[package]]
+name = "goxlr-initialiser"
+version = "0.1.0"
+dependencies = [
+ "rusb",
+]
+
+[[package]]
 name = "goxlr-ipc"
 version = "0.1.0"
 dependencies = [

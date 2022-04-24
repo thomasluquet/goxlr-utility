@@ -1,0 +1,9 @@
+[Unit]
+Description=GoXLR Initialiser
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/goxlr-initialiser
+
+[Install]
+WantedBy=graphical.target

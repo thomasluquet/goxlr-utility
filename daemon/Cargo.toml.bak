@@ -34,8 +34,6 @@ maintainer = "Craig McLure <craig@mclure.net>"
 maintainer-scripts = "../distrib/systemd/"
 systemd-units = { unit-name = "goxlr-initialiser", unit-scripts="../distrib/systemd/", enable = true }
 
-depends = "$auto, libusb"
-
 assets = [
 	["target/release/goxlr-daemon", "usr/bin/", "755"],
 	["target/release/goxlr-client", "usr/bin/", "755"],
